@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className='container mx-auto'>
       <ToastContainer />
-      <div className='my-5 py-5 shadow-xl border w-[70%] mx-auto'>
+      <div className='my-10 py-5 shadow-xl border w-[70%] mx-auto'>
         <h2 className='text-2xl text-blue-600 text-center font-bold'>Contacts</h2>
         <div className='w-full flex gap-5 mt-4 px-3 flex-wrap'>
           <input
