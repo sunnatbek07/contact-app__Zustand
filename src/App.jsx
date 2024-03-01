@@ -22,7 +22,7 @@ const App = () => {
     } else {
       setuName("");
       setTitle("");
-      toast.success("Contacs saved successfully!")
+      toast.success("Contacs added successfully!")
       addContact(newContact);
       saveContacts();
     }
@@ -30,6 +30,7 @@ const App = () => {
 
   const handleDeleteContact = (index) => {
     deleteContact(index);
+    toast.warn("Contact deleted!");
     saveContacts();
   };
 
